@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -60,6 +60,7 @@ h6 {
   transition: ease-in-out 0.3s;
   position: relative;
   height: 100vh;
+  margin: 0px 100px;
   display: flex;
   align-items: center;
   z-index: 997;
